@@ -12,7 +12,6 @@ import java.util.Map;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Builder
 public class JwtResponse {
 
     Map<String, String> token = new HashMap<>();

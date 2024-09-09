@@ -1,17 +1,14 @@
 package com.example.securityprac02.jwt;
 
-import com.example.securityprac02.user.JwtUserDetailService;
 import com.example.securityprac02.user.JwtUserService;
 import com.example.securityprac02.user.UserDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
-@CrossOrigin("http://127.0.0.1:5173")
 @RequestMapping("/api/v1/auth")
 @RequiredArgsConstructor
 @RestController
